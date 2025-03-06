@@ -1,0 +1,3 @@
+function newEmployeeCard(name, position) {
+    
+}
