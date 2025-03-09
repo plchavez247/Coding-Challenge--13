@@ -34,7 +34,7 @@ function newEmployeeCard(name, position) {
 //Task 4: Implementing Remobal of Employee Cards with Event Bubbling
 const employeeContainer = document.getElementById("employeeContainer");
 employeeContainer.addEventListener("click", (event)=> {
-    const card = event.target.closest(`.employeeCard`);//event listener for whrn card is clicked
+    const card = event.target.closest(`.employee-card`);//event listener for whrn card is clicked
     if(card) {
         alert(`Employee card clicked: ${card.id}`);//message when card is clicked
     }
