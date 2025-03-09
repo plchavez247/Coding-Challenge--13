@@ -25,15 +25,5 @@ function newEmployeeCard(name, position) {
     //Task 3:Converting NodeLists to Arrays for Bulk Updates
 
     const employeeCards = document.querySelectorAll(".employeeCard");//using document.querySelectorAll
-    const employeeCardsArray = Array.from(employeeCards);// converting into an array with Array.from
-    employeeCardsArray.forEach(card => {
-        card.computedStyleMap.transition = "box-shadow 0.3s ease-in-out";
-        card.onmouseover = () => {
-            card.computedStyleMap.boxShadow = "0 0 15px rgba(0, 255, 255, 0.8)";
-        };
-        card.onomouseout = () => {
-            card.computedStyleMap.boxShadow = "none";
-        }//this was not taught in class I looked up how to get this affect
-        
-    })
+    
 
