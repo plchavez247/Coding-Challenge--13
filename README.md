@@ -1,1 +1,1 @@
-This is my submission for Codint Challenge #13
+This is my submission for Coding Challenge #13
