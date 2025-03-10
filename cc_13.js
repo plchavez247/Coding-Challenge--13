@@ -15,7 +15,7 @@ function newEmployeeCard(name, position) {
         event.stopPropagation();
         cardEditing(card);
     });
-    card.appendChild(editButton);
+    card.appendChild(editButton);// Creating edit button for task 5
 
     const removeButton = document.createElement(`button`);
     removeButton.textContent = `Remove Employee`;
